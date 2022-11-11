@@ -1,0 +1,15 @@
+.about {
+  margin: 50px 200px 10px 200px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 20px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    margin: 50px 20px 10px 20px;
+  }
+}

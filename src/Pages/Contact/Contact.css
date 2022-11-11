@@ -1,0 +1,13 @@
+.contact-wrapper {
+  margin: 30px 150px 30px 150px;
+}
+
+.contact_details--wrapper {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-wrapper {
+    margin: 50px 20px 10px 20px;
+  }
+}

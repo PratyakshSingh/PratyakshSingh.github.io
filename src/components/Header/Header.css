@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  height: 200px;
+  font-size: 34px;
+  text-align: center;
+  background-image: url("../../assests/images/background.jpg");
+  background-position: 30px;
+  color: white;
+}
+.heading:hover {
+  color: rgb(239, 229, 153);
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    padding-bottom: 30px;
+  }
+}
