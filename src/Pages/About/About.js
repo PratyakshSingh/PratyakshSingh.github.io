@@ -16,7 +16,6 @@ const About = () => {
       <p>
         <b>Resume Link</b> :
         <a
-          style={{ color: "black" }}
           target="_blank"
           rel="noreferrer"
           href="https://drive.google.com/file/d/1Q7OssskW9YU-VZ2sST6cTZ0LuNCvfGNm/view?usp=sharing"
@@ -27,7 +26,6 @@ const About = () => {
       <p>
         <b>LinkedIN Profile: </b>
         <a
-          style={{ color: "black" }}
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/pratyaksh-singh-038662174/"
@@ -38,7 +36,6 @@ const About = () => {
       <p>
         <b>GitHub Profile: </b>
         <a
-          style={{ color: "black" }}
           target="_blank"
           rel="noreferrer"
           href="https://github.com/PratyakshSingh"

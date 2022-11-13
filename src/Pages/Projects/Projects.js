@@ -37,10 +37,19 @@ const Projects = () => {
               <li>
                 <b>Live link:</b>
                 <a
-                  style={{ color: "black" }}
                   target="_blank"
                   rel="noreferrer"
                   href="https://social-aapp.herokuapp.com/"
+                >
+                  Click Here
+                </a>
+              </li>
+              <li>
+                <b>Github Repo:</b>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/PratyakshSingh/SocialMedia"
                 >
                   Click Here
                 </a>
@@ -73,7 +82,6 @@ const Projects = () => {
               <li>
                 <b>Live link:</b>
                 <a
-                  style={{ color: "black" }}
                   target="_blank"
                   rel="noreferrer"
                   href="https://fitness-area.netlify.app/"
@@ -104,10 +112,19 @@ const Projects = () => {
               <li>
                 <b>Live link:</b>
                 <a
-                  style={{ color: "black" }}
                   target="_blank"
                   rel="noreferrer"
                   href="https://covid-19-tracker-8327a.web.app/"
+                >
+                  Click Here
+                </a>
+              </li>
+              <li>
+                <b>Github Repo:</b>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/PratyakshSingh/covid19Tracker1"
                 >
                   Click Here
                 </a>
@@ -145,10 +162,19 @@ const Projects = () => {
               <li>
                 <b>Live link:</b>
                 <a
-                  style={{ color: "black" }}
                   target="_blank"
                   rel="noreferrer"
                   href="https://forkify-recipes-pratyaksh.netlify.app/"
+                >
+                  Click Here
+                </a>
+              </li>
+              <li>
+                <b>Github Repo:</b>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/PratyakshSingh/forkify-Recipe-project"
                 >
                   Click Here
                 </a>

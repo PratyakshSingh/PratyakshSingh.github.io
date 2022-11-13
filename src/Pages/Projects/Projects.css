@@ -14,7 +14,7 @@
   align-items: center;
   border: 2px solid whitesmoke;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px 2px rgb(218, 219, 194);
+  box-shadow: 0px 2px 2px 2px #95bee7;
   margin: 80px 0px;
   padding: 20px;
 }
@@ -26,11 +26,16 @@
 }
 
 .project_text {
-  line-height: 2;
+  line-height: 3;
 }
 
-a {
-  text-decoration: double;
+li > a {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #2d94f3;
+  padding: 5px 15px;
+  font-size: 14px;
+  color: white !important;
 }
 
 img {

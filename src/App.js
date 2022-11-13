@@ -27,9 +27,8 @@ function App() {
               <Contact />
             </Route>
           </Switch>
+          <Footer />
         </div>
-
-        <Footer />
       </div>
     </BrowserRouter>
   );

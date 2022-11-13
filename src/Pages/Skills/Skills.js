@@ -10,6 +10,7 @@ import mongoIcon from "../../assests/images/mongodb.png";
 import reduxIcon from "../../assests/images/redux.png";
 import gitIcon from "../../assests/images/git.png";
 import cplusIcon from "../../assests/images/cplus.png";
+import tsIcon from "../../assests/images/typescript.png";
 
 const Skills = () => {
   return (
@@ -20,6 +21,7 @@ const Skills = () => {
         <img src={htmlIcon} alt="" loading="lazy" className="icon-card" />
         <img src={cssIcon} alt="" loading="lazy" className="icon-card" />
         <img src={jsIcon} alt="" loading="lazy" className="icon-card" />
+        <img src={tsIcon} alt="" loading="lazy" className="icon-card" />
         <img src={reactImage} alt="" loading="lazy" className="icon-card" />
         <img src={nodeIcon} alt="" loading="lazy" className="icon-card" />
         <img src={expressIcon} alt="" loading="lazy" className="icon-card" />

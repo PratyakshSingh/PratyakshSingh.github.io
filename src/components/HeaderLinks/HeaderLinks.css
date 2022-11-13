@@ -2,20 +2,21 @@
   position: fixed;
   width: 98%;
   padding: 15px 20px;
-  background-color: rgb(72, 72, 78);
+  background-color: #2d94f3;
   display: flex;
   justify-content: flex-end;
   z-index: 9999;
 }
 
 a {
-  margin: 0px 10px;
+  margin: 0px 30px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
   cursor: pointer;
 }
 a:hover {
-  color: rgb(239, 229, 153);
+  color: rgb(66, 64, 64);
   text-decoration: underline;
 }
 

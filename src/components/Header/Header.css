@@ -7,12 +7,12 @@
   height: 200px;
   font-size: 34px;
   text-align: center;
-  background-image: url("../../assests/images/background.jpg");
+  background-color: #95bee7;
   background-position: 30px;
   color: white;
 }
 .heading:hover {
-  color: rgb(239, 229, 153);
+  color: rgb(66, 64, 64);
 }
 
 @media screen and (max-width: 600px) {

@@ -1,3 +1,9 @@
+.app {
+  color: rgb(66, 64, 64);
+}
+
 .content-wrapper {
-  margin-bottom: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
