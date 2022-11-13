@@ -9,7 +9,7 @@
 }
 
 a {
-  margin: 0px 30px;
+  margin: 0px 10px;
   font-size: 20px;
   text-decoration: none;
   color: white;
@@ -20,9 +20,10 @@ a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .links {
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 }

@@ -45,7 +45,7 @@ img:hover {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .projects_details_wrapper {
     margin: 50px 20px 10px 20px;
   }
