@@ -18,7 +18,7 @@ const About = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1Q7OssskW9YU-VZ2sST6cTZ0LuNCvfGNm/view?usp=sharing"
+          href="https://drive.google.com/file/d/1fZzyB1a9eoXjHgNTJ4CfY6FvYQ1QRL2w/view?usp=sharing"
         >
           Click Here
         </a>
