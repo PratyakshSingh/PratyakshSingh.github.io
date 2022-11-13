@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.72c46670.css",
-    "main.js": "/static/js/main.6c5cdb82.js",
+    "main.css": "/static/css/main.8a7d1f7e.css",
+    "main.js": "/static/js/main.fb47031f.js",
     "static/media/socialappimage.png": "/static/media/socialappimage.bd2a991e4407e9648f7d.png",
     "static/media/fitnessClubImage.png": "/static/media/fitnessClubImage.b6bf0cb2b8b0cf2bac5c.png",
     "static/media/forkifyAppImage.png": "/static/media/forkifyAppImage.789b613e2d337eb52567.png",
     "static/media/covidTrackerImage.png": "/static/media/covidTrackerImage.aa30ff9fc543b2351133.png",
-    "static/media/background.jpg": "/static/media/background.94d0f8c16d3d704657f1.jpg",
     "static/media/react.png": "/static/media/react.86c8d9eba03e29814d2a.png",
     "static/media/nodejs.png": "/static/media/nodejs.007e99f68b718e476aba.png",
     "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
     "static/media/css.png": "/static/media/css.d2811e5969760ef58072.png",
+    "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.72c46670.css.map": "/static/css/main.72c46670.css.map",
-    "main.6c5cdb82.js.map": "/static/js/main.6c5cdb82.js.map"
+    "main.8a7d1f7e.css.map": "/static/css/main.8a7d1f7e.css.map",
+    "main.fb47031f.js.map": "/static/js/main.fb47031f.js.map"
   },
   "entrypoints": [
-    "static/css/main.72c46670.css",
-    "static/js/main.6c5cdb82.js"
+    "static/css/main.8a7d1f7e.css",
+    "static/js/main.fb47031f.js"
   ]
 }
