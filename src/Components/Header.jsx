@@ -1,10 +1,10 @@
-import React from "react";
+import Logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <div className="fixed top-0 left-0 right-0 mx-auto sm:flex items-center justify-between px-8 py-4 bg-base-100/50">
       <div className="max-w-12">
-        <img src="./src/assests/logo.png" alt="Logo" />
+        <img src={Logo} alt="Logo" />
       </div>
       <div>
         <ul className="hidden sm:flex gap-4 lg:gap-6">

@@ -27,6 +27,10 @@ const SkillsSection = () => {
       rating: 9,
     },
     {
+      name: "TypeScript",
+      rating: 8,
+    },
+    {
       name: "Reactjs",
       rating: 9,
     },

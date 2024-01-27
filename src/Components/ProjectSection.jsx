@@ -1,10 +1,14 @@
-import React from "react";
+import useMoviesPopcorn from "../assets/useMoviesPopcornApp.png";
+import covidTracker from "../assets/covidTrackerImage.png";
+import fitnessClubImage from "../assets/fitnessClubImage.png";
+import ChatImageApp from "../assets/ChatAppImage.png";
+import forkifyAppImage from "../assets/forkifyAppImage.png";
 
 const ProjectSection = () => {
   const projects = [
     {
       name: "Movies Popcorn App",
-      img: "./src/assests/useMoviesPopcornApp.png",
+      img: useMoviesPopcorn,
       liveLink: "https://usemoviespopcorn.netlify.app/",
       videoLink: "",
       githubLink: "https://github.com/PratyakshSingh/useMoviesPopcorn",
@@ -14,7 +18,7 @@ const ProjectSection = () => {
     },
     {
       name: "Chat Application - MERN",
-      img: "./src/assests/ChatAppImage.png",
+      img: ChatImageApp,
       liveLink: "",
       videoLink:
         "https://drive.google.com/file/d/1V74foIG4LDLYCBWt3jmgIIRgLW-6kGWT/view?usp=sharing",
@@ -33,7 +37,7 @@ const ProjectSection = () => {
     },
     {
       name: "Fitness Club",
-      img: "./src/assests/fitnessClubImage.png",
+      img: fitnessClubImage,
       liveLink: "https://fitness-area.netlify.app/",
       videoLink: "",
       githubLink: "",
@@ -43,7 +47,7 @@ const ProjectSection = () => {
     },
     {
       name: "Covid Tracker App",
-      img: "./src/assests/covidTrackerImage.png",
+      img: covidTracker,
       liveLink: "https://covid-19-tracker-8327a.web.app/",
       videoLink: "",
       githubLink: "https://github.com/PratyakshSingh/covid19Tracker1",
@@ -53,7 +57,7 @@ const ProjectSection = () => {
     },
     {
       name: "Forkify Recipe App",
-      img: "./src/assests/forkifyAppImage.png",
+      img: forkifyAppImage,
       liveLink: "https://forkify-recipes-pratyaksh.netlify.app/",
       videoLink: "",
       githubLink: "https://github.com/PratyakshSingh/forkify-Recipe-project",

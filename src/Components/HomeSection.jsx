@@ -13,15 +13,13 @@ const HomeSection = () => {
         <div className="flex justify-center mt-8 gap-x-4">
           {/* <button className="sm:text-xl inline-block rounded-lg px-4 py-2 ring-offset-2 ring-2"> */}
 
-          <button className="btn btn-outline btn-info">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/174_RA-zQMcPviFmiHRiuOarQBqVsdM4l/view?usp=sharing"
-            >
-              Read the CV
-            </a>
-          </button>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://drive.google.com/file/d/174_RA-zQMcPviFmiHRiuOarQBqVsdM4l/view?usp=sharing"
+          >
+            <button className="btn btn-outline btn-info">Read the CV</button>
+          </a>
         </div>
         <div className="flex justify-center gap-10 py-10">
           <a
@@ -59,9 +57,6 @@ const HomeSection = () => {
                 >
                   LeetCode
                 </a>
-              </li>
-              <li>
-                <a>Scaler</a>
               </li>
             </ul>
           </div>
