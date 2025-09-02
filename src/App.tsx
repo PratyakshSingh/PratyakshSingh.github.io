@@ -115,15 +115,26 @@ function App() {
   const experience = [
     {
       company: 'Vena.ai',
-      period: 'Nov 2024 – Jun 2025',
+      period: 'Dec 2024 – July 2025',
       role: 'Backend Engineer (Remote)',
-      focus: 'Built backend microservices for an AI-powered medical knowledge platform; document ingestion (OCR → embeddings), RAG chatbot, Kafka analytics pipeline, Kubernetes deployments (99.9% uptime).'
+      focus: [
+        'Developed microservices for scheduling, medical records, and doctor availability with scalable, modular design.',
+        'Implemented Kafka-based notification pipeline (email/SMS), reducing missed appointments by 40%.',
+        'Developed secure REST APIs with JWT + rate limiting, optimized database schemas, and introduced Redis caching, improving query performance by 45% under peak load.',
+        'Deployed containerized services on Kubernetes with probes for reliability, auto-healing, and seamless scaling.'
+      ]
     },
     {
       company: 'Tata Consultancy Services (TCS)',
       period: 'Nov 2021 – May 2024',
       role: 'Software Developer (Noida, India)',
-      focus: 'Migrated monolith to Spring Boot microservices, optimized REST APIs with PostgreSQL and Redis (–30% response time), built Kafka event-driven workflows, secured APIs with OAuth2/JWT, containerized via Docker & Helm on Kubernetes.'
+      focus: [
+        'Migrated a legacy asset management platform from monolith to Spring Boot microservices, improving scalability and fault isolation.',
+        'Designed and optimized REST APIs integrated with PostgreSQL and Redis, cutting average API response times by 30% and lowering DB load by 25%.',
+        'Built event-driven workflows using Apache Kafka, enabling real-time data processing and reducing processing delays by 60%.',
+        'Secured APIs with OAuth2 + JWT-based RBAC, ensuring role-specific access control for multiple user types.',
+        'Containerized services with Docker and deployed on Kubernetes via Helm, enabling zero-downtime rolling updates.'
+      ]
     }
   ];
 
@@ -162,7 +173,7 @@ function App() {
 
             <div className="flex items-center gap-3">
               <a
-                href="https://drive.google.com/file/d/1FG6RvpVSwji2C-BJ74RujB7As76AUeMc/view?usp=sharing"
+                href="https://drive.google.com/file/d/19bkHORkUIGMe7a_OV0uJbtqlH_9evV1_/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden sm:inline-flex items-center gap-2 px-3 py-2 rounded-md bg-gradient-to-r from-blue-500 to-purple-600 text-white"
@@ -243,7 +254,7 @@ function App() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.9 }}
               >
-                Software Engineer with 3.8 years experience designing and delivering scalable microservices, Kafka-driven architectures, high-performance REST APIs and cloud-native deployments on AWS & Kubernetes.
+                Software Engineer with 3.5 years experience designing and delivering scalable microservices, Kafka-driven architectures, high-performance REST APIs and cloud-native deployments on AWS & Kubernetes.
               </motion.p>
             </motion.div>
 
@@ -254,7 +265,7 @@ function App() {
               transition={{ delay: 1.1 }}
             >
               <a
-                href="https://drive.google.com/file/d/1FG6RvpVSwji2C-BJ74RujB7As76AUeMc/view?usp=sharing"
+                href="https://drive.google.com/file/d/19bkHORkUIGMe7a_OV0uJbtqlH_9evV1_/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center gap-2"
@@ -303,7 +314,7 @@ function App() {
               <div className="mb-12">
                 <h3 className="text-2xl font-semibold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Professional Summary</h3>
                 <p className="text-lg mb-6 text-gray-600 dark:text-gray-300">
-                  Software Engineer with 3.8 years of experience designing and delivering scalable and distributed microservices.
+                  Software Engineer with 3.5 years of experience designing and delivering scalable and distributed microservices.
                   Proven expertise in Kafka-driven architectures, high-performance RESTful APIs, and cloud-native deployments on AWS/Kubernetes.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
@@ -322,8 +333,15 @@ function App() {
                       <h4 className="text-xl font-semibold">{exp.company}</h4>
                       <span className="text-blue-500 font-medium text-sm">{exp.period}</span>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium mb-2">{exp.role}</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{exp.focus}</p>
+                    <p className="text-gray-600 dark:text-gray-300 font-medium mb-3">{exp.role}</p>
+                    <ul className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed space-y-1">
+                      {exp.focus.map((point, pointIndex) => (
+                        <li key={pointIndex} className="flex items-start">
+                          <span className="text-blue-500 mr-2 mt-1">•</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))}
